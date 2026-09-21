@@ -199,49 +199,6 @@ export default function HomePage() {
             </div>
             <a href="#cta" className="mini-cta-primary" style={{ marginTop: 16 }}>Запросить</a>
           </div>
-
-          {/* CABINET PREVIEW */}
-          <div className="mini-section-head">
-            <h3>Кабинет <em>личный</em></h3>
-            <span className="see">Профиль →</span>
-          </div>
-          <div className="progress-strip mb-4"><span style={{ width: "36%" }} /></div>
-          <div className="stat-grid mb-3">
-            <div className="stat-box">
-              <div className="num">5<small style={{ fontSize: 13, color: "var(--text-muted)" }}>/21</small></div>
-              <div className="lbl">Марафон «Скульптура»</div>
-              <div className="bar"><span style={{ width: "24%" }} /></div>
-            </div>
-            <div className="stat-box">
-              <div className="num">12</div>
-              <div className="lbl">Уроков пройдено</div>
-              <div className="bar"><span style={{ width: "58%" }} /></div>
-            </div>
-          </div>
-
-          <div className="badge-list">
-            <div className="badge-row main">
-              <div className="ic">🔥</div>
-              <div className="b">
-                <div className="t">Стрик 7 дней</div>
-                <div className="s">Серия · ежедневная практика</div>
-              </div>
-            </div>
-            <div className="badge-row">
-              <div className="ic">✦</div>
-              <div className="b">
-                <div className="t">Первый мастер-класс</div>
-                <div className="s">Открыт · 02.09.2026</div>
-              </div>
-            </div>
-            <div className="badge-row">
-              <div className="ic">❄</div>
-              <div className="b">
-                <div className="t">L'Elite · следующий шаг</div>
-                <div className="s">Разблокируется на Tier III</div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
