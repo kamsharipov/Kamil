@@ -1,0 +1,32 @@
+# PDF-презентации
+finansovaya_svoboda.pdf
+*.pdf
+
+# Скрипты генерации презентаций
+generate_slide.py
+generate_slide*.py
+
+# Шрифты и архивы (архивы с презентациями/шрифтами)
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Шрифты (не относящиеся к кодовой базе)
+*.otf
+*.ttf
+fonts_extracted/
+public/times-new-roman-italic.zip
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+
+# Node (на случай запуска из корня)
+node_modules/
